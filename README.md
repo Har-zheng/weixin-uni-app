@@ -1,5 +1,5 @@
 # web-wechart
-
+uni-app 实现小程序 see [Configuration Reference](https://uniapp.dcloud.io/README)
 ## Project setup
 ```
 yarn install
@@ -27,3 +27,4 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
