@@ -1,0 +1,53 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "视频"
+			}
+    },
+    {
+			"path": "pages/tabBar/index",
+			"style": {
+				"navigationBarTitleText": "导师",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"text": "\ue534",
+							"fontSrc": "/static/uni.ttf",
+							"fontSize": "22px",
+							"color": "#999999"
+						}]
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+      {
+        "pagePath": "pages/index/index",
+				"iconPath": "static/extui.png",
+				"selectedIconPath": "static/extuiHL.png",
+				"text": "视频"
+      },
+      {
+				"pagePath": "pages/tabBar/index",
+				"iconPath": "static/templateIndex.png",
+				"selectedIconPath": "static/templateHL.png",
+				"text": "导师"
+      }
+		]
+	}
+}
